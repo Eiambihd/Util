@@ -13,7 +13,7 @@ public class SortUtil {
         int sortedArr[] = mergeSort(arr, arr.length);
 
     }
-
+    // 归并排序
     public static int[] mergeSort(int[] arr, int size) {
         if (size == 1) {
             return arr;
